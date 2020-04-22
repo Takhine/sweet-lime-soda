@@ -1,0 +1,46 @@
+@font-face{
+    font-family: "Exodus Sharpen";
+    src: url(../../fonts/ExodusDemo-Sharpen.otf) format("opentype");
+}
+
+@font-face{
+    font-family: "Exodus Regular";
+    src: url(../../fonts/ExodusDemo-Regular.otf) format("opentype");
+}
+
+@font-face{
+    font-family: "Exodus Shino";
+    src: url(../../fonts/ExodusDemo-Shino.otf) format("opentype");
+}
+
+@font-face{
+    font-family: "Exodus Stencil";
+    src: url(../../fonts/ExodusDemo-Stencil.otf) format("opentype");
+}
+
+@font-face{
+    font-family: "Exodus Striped";
+    src: url(../../fonts/ExodusDemo-Striped.otf) format("opentype");
+}
+
+*{
+    font-family: $regular;
+    background-color: $grey;
+}
+
+
+.container{
+    padding: 32px 16px;
+    @include sm{
+        padding: 48px 18px;
+    }
+    @include lg{
+        padding: 64px 24px;
+    }
+    @include xl{
+        padding: 72px 48px;
+    }
+    @include xxl{
+        padding: 72px 64px;
+    }
+}
