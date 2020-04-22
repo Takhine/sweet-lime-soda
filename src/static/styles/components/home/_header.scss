@@ -49,8 +49,15 @@
     .landscape{
         width: inherit;
         padding: 12px 48px;
+        position: relative;
         &__image{
             width: 100%;
+        }
+        .image-text{
+            font-size: $xtitle-font;
+        }
+        .header-floating{
+            right: -30px;
         }
     }
 

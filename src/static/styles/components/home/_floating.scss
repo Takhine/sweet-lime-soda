@@ -1,0 +1,13 @@
+.floating{
+    &__text{
+        color: white;
+        letter-spacing: 3px;
+        margin:0;
+        font-weight: 100;
+        font-size: $xtitle-font;
+        margin-right: 12px;
+    }
+    &__image{
+        width: 50px;
+    }
+}

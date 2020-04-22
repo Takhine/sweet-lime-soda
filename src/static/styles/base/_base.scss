@@ -25,6 +25,8 @@
 
 *{
     font-family: $regular;
+}
+html,body{
     background-color: $grey;
 }
 
@@ -43,4 +45,14 @@
     @include xxl{
         padding: 72px 64px;
     }
+}
+
+.floating{
+    position: absolute;
+    top: 35%;
+    right: 0;
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }

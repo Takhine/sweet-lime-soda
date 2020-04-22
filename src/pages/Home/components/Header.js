@@ -3,7 +3,7 @@ import React from "react";
 import title from "static/images/title.png";
 import landscape from "static/images/landscape.png";
 import portrait from "static/images/portrait.png";
-
+import FloatingText from './FloatingText';
 export default function Header() {
   return (
     <div className="header">
@@ -26,6 +26,7 @@ export default function Header() {
               src={landscape}
               alt="Bahurupt Sweet Lime Soda"
             />
+            <FloatingText style="header-floating" />
           </div>
         </section>
         <section className="right-col">
