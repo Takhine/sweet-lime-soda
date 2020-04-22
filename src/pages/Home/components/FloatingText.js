@@ -10,7 +10,7 @@ export default function FloatingText(props) {
   return (
     <div className={["floating",props.style].join(" ")}>
       <img className="floating__image" src={plus} alt="Plus" />
-      <h3 className="floating__text">Bahurupt</h3>
+      <h3 className="floating__text">{props.text}</h3>
     </div>
   );
 }

@@ -1,0 +1,35 @@
+.brands{
+    .purusham,.idc{
+        position: relative;
+        margin: 24px 0;
+        &-floating{
+            left: -35px;
+            right: unset;
+            top: 50%;
+        }
+        &__image{
+            width: 100%;
+        }
+    }
+
+    .image-grid{
+        display: flex;
+        margin: 32px;
+        &-item{
+            width: 33.33%;
+        }
+    }
+
+    .pankaj, .deal{
+        position: relative;
+        margin: 12px 0;
+        &-floating{
+            left: unset;
+            right: -45px;
+            top: 50%;
+        }
+        &__image{
+            width: 100%;
+        }
+    }
+}

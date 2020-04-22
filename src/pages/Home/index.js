@@ -1,14 +1,12 @@
 import React from "react";
-import Header from './components/Header';
+import Header from "./components/Header";
+import Brands from "./components/Brands";
+
 export default function Home() {
   return (
-    <div
-      id="home"
-      style={{
-        padding: 20,
-      }}
-    >
+    <div id="home">
       <Header />
+      <Brands />
     </div>
   );
 }

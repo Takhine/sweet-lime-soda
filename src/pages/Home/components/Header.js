@@ -26,7 +26,7 @@ export default function Header() {
               src={landscape}
               alt="Bahurupt Sweet Lime Soda"
             />
-            <FloatingText style="header-floating" />
+            <FloatingText style="header-floating" text="Bahurupt" />
           </div>
         </section>
         <section className="right-col">
