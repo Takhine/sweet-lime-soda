@@ -1,15 +1,21 @@
 .header{
-    display: flex;
     @extend .container;
-    .left-col{
-        @include xl{
-            max-width: 65%;
+    .top-row{
+        display: flex;
+        .left-col{
+            @include xl{
+                max-width: 65%;
+            }
+        }
+        .right-col{
+            @include xl{
+                max-width: 35%;
+            }
         }
     }
-    .right-col{
-        @include xl{
-            max-width: 35%;
-        }
+    .bottom-row{
+        width: 100%;
+        margin-top: 32px;
     }
     .title{
         display: flex;
@@ -30,6 +36,7 @@
             &__item{
                 color: $orange;
                 font-size: $large-font;
+                font-weight: $regular-font;
                 cursor: pointer;
                 transition: $transition-main;
                 &:hover{
@@ -53,6 +60,19 @@
         margin-top: 120px;
         &__image{
             width: 100%;
+        }
+    }
+
+    .business{
+        padding: 24px 12px;
+        &__message{
+            font-size: $xtitle-font;
+            color: $orange;
+            text-align: center;
+            max-width: 650px;
+            margin: auto;
+            font-family: $regular;
+            font-weight: $regular-font;
         }
     }
 }
