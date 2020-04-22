@@ -1,18 +1,15 @@
-import React from 'react';
-import 'static/styles/main.scss';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from 'react-router-dom';
-
-import Home from 'pages/Home/index';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Layout from "layout/index";
+import Home from "pages/Home/index";
 
 function App() {
   return (
     <Router>
       <Switch>
+        <Layout>
           <Route path="/" exact component={Home} />
+        </Layout>
       </Switch>
     </Router>
   );
